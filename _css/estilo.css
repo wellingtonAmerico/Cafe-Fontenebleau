@@ -1,0 +1,157 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+html { 
+	background-color:#F6F6F6;
+}
+
+article, aside, section, header, footer, nav {
+	display:block;
+}
+
+main {
+	width: 90%;
+	margin: -1px auto 10px;
+	box-shadow:0 0 10px #999999;
+	border:1px solid #ddd;
+	background-color:#FFF;
+	font-family:Arial, Helvetica, sans-serif;
+	min-width: 715px;
+}
+
+header {
+	width: 100%;
+	height:110px;
+	background-color:rgb(255,127,0);
+    background-color:rgb(12,4,1);
+    background-image:url(../_img/layout/topo_principal.jpg);
+    background-repeat:no-repeat;
+}
+
+#fixo {
+	min-width: 715px;
+	width: 90%;
+	position: fixed;
+}
+nav {
+	display:block;
+	background-color: #0C0401;
+	width: 100%;
+	height:40px;
+}
+nav ul {
+	list-style:none;
+	margin: 0;
+	padding:4px;
+}
+nav ul li {
+	margin-top: -15px;
+}
+nav ul li a {
+	float:left;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-style: italic;
+	color: #FC9;
+	text-decoration: none;
+	padding:5px 2%;
+	margin-top: 5px;
+	font-size: 100%;
+	text-align: center;
+}
+nav ul li a:hover {
+	background-color: #5f2c0e;
+}
+
+article {
+	float:left;
+	margin:170px 2.5% 30px;
+	width: 65%;
+}
+
+aside {
+	float: left;
+	width: 230px;
+	border-top: 1px solid #C63;
+	border-bottom: 1px solid #C63;
+	padding: 40px 10px 0;
+	font-style: italic;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	background: url(../_img/diversas/aspas.gif) no-repeat;
+}
+aside p {
+	color: #999;
+}
+
+#apoio {
+	float:right;
+	width:30%;
+	margin-top:170px;
+}		
+
+h1, h2, h3, h4 {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	color:#C63;
+	font-style:italic;
+	letter-spacing:-0.05em;
+}
+h1 {
+	font-size:2.6em;
+	margin:0 5px;
+}
+h4 {
+	font-size:1.6em;
+	margin:0 5px;
+}
+p, li, address {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:0.9em;
+	color:#555;
+	line-height:1.8;
+}
+
+section.textoMedio {
+	clear: both;
+}
+section.textoMedio p:first-of-type::first-letter{
+	font-size: 2em;
+	margin: -8px 5px 0 0;
+	float: left;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+input {
+	display:block;
+	margin-bottom:20px;
+	border:1px solid #999;
+	padding:8px;
+    border-radius:3px;
+}
+input:focus {
+	border:1px solid #ccc;
+	outline:none;
+}
+input[type=submit] {
+	width:100px;
+	color:#FFF;
+	background:linear-gradient(top, #F33, #933 );
+	background:-webkit-linear-gradient(top, #F33, #933 );
+	background:-moz-linear-gradient(top, #F33, #933 );
+	border:1px solid #333;
+	cursor:pointer;
+}
+
+footer {
+	clear:both;
+	width:70%;
+	margin:0 auto;
+	font-size:0.75em;
+	text-align:center;
+	background-color:#ECECEC;
+	padding:5px;
+}
+
+#copy {
+	text-align: center;
+}
