@@ -25,7 +25,7 @@ header {
 	height:110px;
 	background-color:rgb(255,127,0);
     background-color:rgb(12,4,1);
-    background-image:url(../_img/layout/topo_principal.jpg);
+    background-image:url(../img/layout/topo_principal.jpg);
     background-repeat:no-repeat;
 }
 
@@ -78,7 +78,7 @@ aside {
 	font-style: italic;
 	margin-right: 20px;
 	margin-bottom: 20px;
-	background: url(../_img/diversas/aspas.gif) no-repeat;
+	background: url(../img/diversas/aspas.gif) no-repeat;
 }
 aside p {
 	color: #999;
