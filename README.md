@@ -1,39 +1,65 @@
-# ☕ Café Fontenebleau Website
+# Cafe Fontenebleau
 
-Multi-page responsive website for a fictional café/restaurant.
+Responsive multi-page website developed for a fictional café/restaurant.
+
+The project was created to practice front-end structure, responsive layouts, page organization and navigation between sections.
 
 ---
 
-## 🚀 Live Demo
+## Deploy
+
 https://wellingtonamerico.github.io/Cafe-Fontenebleau/
 
 ---
 
-## 🧩 Pages
-- Home
-- Menu
-- About Us
-- Location
-- Reviews
-- Special Events
-- Register
+## Technologies Used
 
----
-
-## 🛠 Tech Stack
 - HTML5
-- CSS3 (responsive layout)
+- CSS3
 - JavaScript
+- Git
+- GitHub
+- GitHub Pages
 
 ---
 
-## ✅ What I practiced
-- Multi-page navigation structure
-- Asset organization (css/img/js)
-- Responsive layout and UI sections
-- Web project publishing with GitHub Pages
+## Project Structure
+
+```bash
+Cafe-Fontenebleau/
+│
+├── css/
+├── img/
+├── js/
+│
+├── index.html
+├── menu/
+├── about-us/
+├── location/
+├── review/
+├── register/
+└── special-events/
+```
 
 ---
 
-## 👤 Author
-**Wellington Américo**
+## What Was Practiced
+
+- Multi-page website structure
+- Responsive layout development
+- Front-end asset organization
+- Navigation between pages
+- Website publishing with GitHub Pages
+- Git version control
+
+---
+
+## Author
+
+Wellington Américo
+
+LinkedIn:
+https://www.linkedin.com/in/wellington-am%C3%A9rico/
+
+GitHub:
+https://github.com/wellingtonAmerico
